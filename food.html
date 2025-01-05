@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi vu Sài Gòn phố</title>
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.css">
+    <!-- MAIN STYLE -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <!-- Image of the website -->
+            <div class="col-2">
+                <div class="container">
+                    <h4 style="margin: 0 !important;">
+                        <img src="static\img\flag.png" alt="" width="30" height="30">
+                        <a class="navbar-brand" href="http://127.0.0.1:8000/">
+                            Khám phá Sài Gòn
+                        </a>    
+                    </h4>        
+                </div>
+            </div>
+            <!-- Menu of the website -->
+            <div class="col-10">
+                <ul class="nav justify-content-end" id="menu" style="padding-right: 15px;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Giới thiệu 💁‍♂️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="destination.html" class="nav-link">Điểm đến 🏯</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="food.html" class="nav-link">Ẩm thực 🍽️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Liên hệ 📞</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="container-lg" style="margin-top: 35px;">
+        <main>
+            <div class="full text-center">
+                <div class="brief">
+                    <h1 class="title">Ẩm thực Sài Gòn</h1>
+                    <p class="subtitle">Người Sài Gòn thường nói: "Ăn quận 5. Nằm quận 3.<br>Xa hoa quận 1. Trấn lột quận 4".</p>
+                </div>
+            </div>
+            <div class="food text-center" style="margin: 35px 0 35px 0;">
+                <h2 style="margin-bottom: 35px;">Các món ăn ngon và địa điểm thưởng thức tại Sài Gòn</h2>
+                <div class="row" id="food">
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div id="lienhe" class="text-center" style="padding-bottom: 25px;">
+            <p style="padding-top: 15px;">&copy; 2025 LTL Company</p>
+            <div style="margin-bottom: 5px;">
+                <p class="contact" style="display: block;"><b>Liên hệ</b></p>
+            </div>
+            <p class="contact">Email: Vivu@saigon-tourism.com</p>
+            <p class="contact">Số điện thoại: 0xxxxxxxx</p>
+            <p class="contact" style="margin-bottom: 0;">Social Media: <a href="facebook.com">Facebook</a></p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+    <script>
+        window.onload = function(){
+            renderFood();
+        }
+    </script>
+</body>
+</html>

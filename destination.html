@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi vu Sài Gòn phố</title>
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.css">
+    <!-- MAIN STYLE -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <!-- Image of the website -->
+            <div class="col-2">
+                <div class="container">
+                    <h4 style="margin: 0 !important;">
+                        <img src="static\img\flag.png" alt="" width="30" height="30">
+                        <a class="navbar-brand" href="http://127.0.0.1:8000/">
+                            Khám phá Sài Gòn
+                        </a>    
+                    </h4>        
+                </div>
+            </div>
+            <!-- Menu of the website -->
+            <div class="col-10">
+                <ul class="nav justify-content-end" id="menu" style="padding-right: 15px;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Giới thiệu 💁‍♂️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="destination.html" class="nav-link">Điểm đến 🏯</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="food.html" class="nav-link">Ẩm thực 🍽️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Liên hệ 📞</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="container-lg" style="margin-top: 35px;">
+        <main>
+            <!-- Sơ qua về sự ăn chơi:)) -->
+            <div class="brief">
+                <h1 class="title"><b>Sài Gòn</b> ngày hay đêm đều có chỗ chơi</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="static\img\saiGonveDem.jpg" alt="" class="gioithieu-picture">
+                    </div>
+                    <siv class="col-8 text-holder">
+                        <p class="text" style="font-size: 20px;">
+                            Từ khi tờ mờ sáng, nơi đây đã có con người thức dậy, để tập thể dục, để chuẩn bị đồ đi bán,...Tới khi trời đêm kéo xuống ngoài đường phố vẫn tấp nập người qua lại.
+                            Điều đó cho ta thấy, Sài Gòn luôn năng động và nhộn nhịp bất kể ngày hay đêm, chúng ta đều có nhiều điểm vui chơi để ghé đến vào bất cứ thời điểm nào, và ở phần này
+                            chúng mình sẽ dẫn các bạn đến đó nháaaaa!
+                        </p>
+                    </siv>
+                </div>
+            </div>
+            <!-- Điểm đến -->
+            <h1 style="text-align: center; margin-top: 35px;">Điểm vui chơi tại Sài Gòn</h1>
+            <div style="background-color: rgb(24, 135, 245); padding: 35px; border-radius: 45px;">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a target="_blank" href="https://vinpearl.com/vi/nha-tho-duc-ba-diem-du-lich-phai-check-in-khi-den-sai-gon">
+                            <img src="static\img\nhathoDucBa.jpg" class="d-block pic" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4 class="subtitle">Nhà thờ Đức Bà</h4>
+                                <p class="hide">Công trường Công Xã Paris, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.dinhdoclap.gov.vn/di-tich/lich-su-dinh/">
+                            <img src="./static/img/DinhDocLap.jpg" class="d-block pic" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4 class="subtitle">Dinh Độc Lập</h4>
+                                <p>số 135, đường Nam Kỳ Khởi Nghĩa, phường Bến Thành, quận 1.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://mia.vn/cam-nang-du-lich/kham-pha-cho-ben-thanh-12521">
+                            <img src="static\img\choBenThanh.jpg" class="d-block pic" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4 class="subtitle">Chợ Bến Thành</h4>
+                                <p>Ben Thanh, District 1, Ho Chi Minh City.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://bennharong.hochiminh.vn/">
+                            <img src="static\img\benNhaRong.jpg" class="d-block pic" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4 class="subtitle">Bến Nhà Rồng</h4>
+                                <p>1 Nguyễn Tất Thành, Phường 13, Quận 4, Hồ Chí Minh.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://vnexpress.net/buu-dien-hon-130-tuoi-o-sai-gon-4617139.html">
+                            <img src="static\img\buudienthanhpho.jpg" class="d-block pic" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4 class="subtitle">Bưu điện Thành phố</h4>
+                                <p>125 đường Hai Bà Trưng, phường Bến Nghé, Quận 1.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div id="lienhe" class="text-center" style="padding-bottom: 25px;">
+            <p style="padding-top: 15px;">&copy; 2025 LTL Company</p>
+            <div style="margin-bottom: 5px;">
+                <p class="contact" style="display: block;"><b>Liên hệ</b></p>
+            </div>
+            <p class="contact">Email: Vivu@saigon-tourism.com</p>
+            <p class="contact">Số điện thoại: 0xxxxxxxx</p>
+            <p class="contact" style="margin-bottom: 0;">Social Media: <a href="facebook.com">Facebook</a></p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="./static/js/bootstrap/bootstrap.js"></script>
+</body>
+</html>
