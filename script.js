@@ -2,54 +2,57 @@ var food_arrays = [
     {
         name: "Bánh mì",
         image:"static/img/food/banh-mi.jpg",
-        address: "26 Lê Thị Riêng, Phạm Ngũ Lão, Quận 1",
+        address: "https://maps.app.goo.gl/Z2ftUwajAWqFr7pQ7",
     },
     {
         name: "Phở bò",
         image:"static/img/food/pho.jpg",
-        address: "260C Pasteur, Phường 8, Quận 3",
+        address: "https://maps.app.goo.gl/y3fJ5Qi1jUbdWmxKA",
     },
     {
         name: "Bún bò",
         image:"static/img/food/bun-bo.jpg",
-        address: "169 Cao Thắng, phường 11, Quận 10",
+        address: "https://maps.app.goo.gl/Pom8CF3iy7AMy9B67",
     },
     {
         name: "Hủ tiếu",
         image:"static/img/food/hu-tieu.jpg",
-        address: "26 Lê Thị Riêng, Phạm Ngũ Lão, Quận 1",
+        address: "https://maps.app.goo.gl/eoasN6LJXkY3CeuR8",
     },
     {
         name: "Cơm tấm",
         image:"static/img/food/com-tam.jpg",
-        address: "167 Nguyễn Văn Cừ, phường 2, quận 5",
+        address: "https://maps.app.goo.gl/QPJbyfCZPSuJ6U5QA",
     },
     {
         name: "Gỏi cuốn",
         image:"static/img/food/banh-cuon.jpg",
-        address: "424 Lạc Long Quân, Quận 11",
+        address: "https://maps.app.goo.gl/6TgS3vHf87uLpYC2A",
     },
     {
         name: "Bánh ướt",
         image:"static/img/food/banh-uot.jpg",
-        address: "115 Nguyễn Thị Nhỏ, Quận Tân Bình",
+        address: "https://maps.app.goo.gl/rJHcFEbWBPafpE9cA",
     },
     {
         name: "Bánh xèo",
         image:"static/img/food/banh-xeo.webp",
-        address: "BB13 Trường Sơn, phường 15, quận 10",
+        address: "https://maps.app.goo.gl/6M7pyfRXbBGoCkD97 ",
     },
 ];
 
 function createHTML(food){
     return `
-        <div class="col-3">
-            <div class="p-2 holder">
+    <div class="col-3">
+        <a href="${food.address}" class="special" target="_blank">
+            <div class="holder">
                 <img src="${food.image}" alt="" class="food-pic">
-                <h4>${food.name}</h4>
-                <p>${food.address}</p>
+                <div class="text-center">
+                    <h4>${food.name}</h4>
+                </div>
             </div>
-        </div>
+        </a>
+    </div>
     `;
 }
 

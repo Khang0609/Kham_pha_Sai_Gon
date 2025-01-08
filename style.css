@@ -1,11 +1,26 @@
 /* ------------- HEADER ----------------- */
 .nav-link{
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.bg-light{
+    background-color: rgb(22, 163, 29) !important;
+}
+
+.nav-item{
+    border: #1c810e solid 4px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.navbar-brand{
+    color: white !important;
 }
 
 #lienhe{
     margin-top: 35px;
-    background-color: black !important;
+    background-color: rgb(43, 33, 33) !important;
     color: white !important;
 }
 
@@ -19,6 +34,11 @@
     font-size: 12px;
 }
 
+.main-title{
+    color:rgba(9, 12, 187, 0.733);
+    font-weight: bold;
+}
+
 .section{
     margin-top: 25px;
 }
@@ -28,14 +48,14 @@
 }
 
 .text-holder{
-    border: solid 1px blue; 
+    border: solid 4px blue; 
     padding: 25px 25px 0 25px; 
     text-align: justify;
 }
 
 .text{
     font-size: 15x;
-    text-indent: 20px;
+    text-indent: 5px;
 }
 
 .contact{
@@ -72,7 +92,7 @@ h1.title{
     font-size: 45px; 
     text-align: center;
     margin-bottom: 35px !important;
-    color: rgb(5, 3, 90);
+    color: rgb(2, 7, 77);
 }
 
 .full .title{
@@ -81,7 +101,7 @@ h1.title{
 
 p.subtitle{
     text-align: center;
-    color: aliceblue;
+    color: rgb(243, 250, 255);
     font-size: 20px;
     font-weight: 500;
 }
@@ -98,15 +118,36 @@ p.subtitle{
 }
 
 .full .brief{
-    background-color: rgb(60, 73, 253);
+    background-color: rgb(147, 154, 255);
     padding: 7px;
 }
 
 .food-pic{
     height: 150px;
+    width: 150px;
 }
 
 .holder{
-    border: 1px solid rgb(24, 24, 143);
-    margin-top: 25px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.special{
+    color: black;
+    text-decoration: none !important;
+}
+
+.special:hover .holder{
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.food .col-3{
+    translate: 23%;
+}
+
+.center{
+    text-align: center;
 }
