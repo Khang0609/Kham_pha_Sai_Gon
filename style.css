@@ -1,6 +1,7 @@
 /* ------------- HEADER ----------------- */
 .nav-link{
     color: rgb(255, 255, 255) !important;
+    font-size: small;
 }
 
 .bg-light{
@@ -54,7 +55,7 @@
 }
 
 .text{
-    font-size: 15x;
+    font-size: 12px;
     text-indent: 5px;
 }
 
