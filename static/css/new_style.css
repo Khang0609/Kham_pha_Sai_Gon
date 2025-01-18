@@ -824,6 +824,7 @@ p.subtitle {
 p.contact {
   margin-bottom: 20px !important;
 }
-body,div.banner,div.container {
+body,div.banner,div.container,span.color {
   background-color: rgb(214, 214, 196);
 }
+ 
