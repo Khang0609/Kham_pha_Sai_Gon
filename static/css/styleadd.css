@@ -1,0 +1,93 @@
+
+img.block{
+    width: 50%;
+    object-fit: cover;
+    padding-right:1rem;
+}
+
+div.container {
+    max-width: 1440px;
+    margin: auto;
+}
+.container{
+    
+    text-align: left !important;
+    width: 100%;
+    padding-right:0.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:-31px;
+    max-width:100%;   
+    margin: 40px 0px 40px 0px;
+}
+
+.col{
+    border-left: #765e3c solid;
+    margin-left: rem;
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    margin: 40px 0px 40px 0px;
+}
+
+.product{
+    display: flex;
+}
+
+ h1.tieude_1{
+    text-align: center; 
+    padding-top: 1cm; 
+    font-size: 50px;
+ }
+ h3.comingsoon{
+    text-align: center;
+    padding:5rem;
+    font-size: 100px;
+ }
+
+ /* STYLE FOR THE LINK OF THE MENU */
+
+
+.none{
+    text-decoration: none;
+}
+
+.content-text{
+    color: black;
+}
+
+
+.banner{
+    padding-top:3rem;
+    text-align: left !important;
+    color: rgb(0, 0, 0) !important;
+    padding-left: 2rem;
+    font-size: 20px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+span.tieude{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(58, 95, 60);
+}

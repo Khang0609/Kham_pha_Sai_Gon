@@ -1,74 +1,74 @@
 /* ------------- HEADER ----------------- */
-.nav-link{
+.nav-link {
   color: rgb(255, 255, 255) !important;
   font-size: small;
 }
 
-.bg-light{
-  background-color: rgb(22, 163, 29) !important;
+.bg-light {
+  background-color: rgb(184, 30, 33) !important;
 }
 
-.nav-item{
+.nav-item {
   border: #1c810e solid 4px;
   border-top: 0;
   border-bottom: 0;
   border-right: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: white !important;
 }
 
-#lienhe{
+#lienhe {
   margin-top: 35px;
   background-color: rgb(43, 33, 33) !important;
   color: white !important;
 }
 
-#lienhe>p+p{
+#lienhe > p + p {
   margin: 0 !important;
 }
 
-#lienhe .contact{
+#lienhe .contact {
   padding-right: 15px !important;
   line-height: 5px;
   font-size: 12px;
 }
 
-.main-title{
-  color:rgba(9, 12, 187, 0.733);
+.main-title {
+  color: rgba(9, 12, 187, 0.733);
   font-weight: bold;
 }
 
-.section{
+.section {
   margin-top: 25px;
 }
 
-.gioithieu-picture{
+.gioithieu-picture {
   height: 16.6em;
 }
 
-.text-holder{
+.text-holder {
   border-left: 2px solid #1a1919;
-  padding: 25px 25px 0 25px; 
+  padding: 25px 25px 0 25px;
   text-align: justify;
 }
 
-.text{
+.text {
   font-size: 12px;
   text-indent: 5px;
 }
 
-.contact{
+.contact {
   display: inline;
 }
 
-.btn{
+.btn {
   display: block !important;
   justify-self: center !important;
 }
 
-.d-block{
+.d-block {
   justify-self: center !important;
   border-radius: 25px;
 }
@@ -79,35 +79,35 @@
   color: rgb(0, 0, 0) !important;
 }
 
-.pic{
+.pic {
   height: 550px;
 }
 
-h4.subtitle{
+h4.subtitle {
   font-weight: bold;
   padding: 10px;
   background-color: rgb(10, 10, 118);
 }
 
-h1.title{
-  font-size: 45px; 
+h1.title {
+  font-size: 45px;
   text-align: center;
   margin-bottom: 35px !important;
   color: rgb(2, 7, 77);
 }
 
-.full .title{
-  margin:0 !important;
+.full .title {
+  margin: 0 !important;
 }
 
-p.subtitle{
+p.subtitle {
   text-align: center;
   color: rgb(243, 250, 255);
   font-size: 20px;
   font-weight: 500;
 }
 
-.full{
+.full {
   background-image: url("static/img/amthucVN.jpg");
   padding-top: 120px;
   background-color: #cccccc;
@@ -118,38 +118,37 @@ p.subtitle{
   justify-self: center;
 }
 
-.full .brief{
+.full .brief {
   background-color: rgb(147, 154, 255);
   padding: 7px;
 }
 
-.food-pic{
+.food-pic {
   height: 150px;
   width: 150px;
 }
 
-.holder{
+.holder {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 150px;
   margin-bottom: 25px;
 }
 
-.special{
+.special {
   color: black;
   text-decoration: none !important;
 }
 
-.special:hover .holder{
+.special:hover .holder {
   color: black;
   transform: scale(1.1);
 }
 
-
-.food .col-3{
+.food .col-3 {
   translate: 23%;
 }
 
-.center{
+.center {
   text-align: center;
 }
 .heart-container {
@@ -157,7 +156,7 @@ p.subtitle{
   position: relative;
   width: 50px;
   height: 50px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .heart-container .checkbox {
@@ -178,7 +177,7 @@ p.subtitle{
 }
 
 .heart-container .svg-outline,
-        .heart-container .svg-filled {
+.heart-container .svg-filled {
   fill: var(--heart-color);
   position: absolute;
 }
@@ -190,7 +189,7 @@ p.subtitle{
 
 .heart-container .svg-celebrate {
   position: absolute;
-  animation: keyframes-svg-celebrate .5s;
+  animation: keyframes-svg-celebrate 0.5s;
   animation-fill-mode: forwards;
   display: none;
   stroke: var(--heart-color);
@@ -198,12 +197,12 @@ p.subtitle{
   stroke-width: 2px;
 }
 
-.heart-container .checkbox:checked~.svg-container .svg-filled {
-  display: block
+.heart-container .checkbox:checked ~ .svg-container .svg-filled {
+  display: block;
 }
 
-.heart-container .checkbox:checked~.svg-container .svg-celebrate {
-  display: block
+.heart-container .checkbox:checked ~ .svg-container .svg-celebrate {
+  display: block;
 }
 
 @keyframes keyframes-svg-filled {
@@ -241,7 +240,7 @@ p.subtitle{
 .like-dislike-container {
   --dark-grey: #000000;
   --middle-grey: #090101;
-  --lightest-grey: linear-gradient(#3b3b3b,#313131);
+  --lightest-grey: linear-gradient(#3b3b3b, #313131);
   --shadow: 0 5px 15px 0 #00000026;
   --shadow-active: 0 5px 5px 0 #00000026;
   --border-radius-main: 10px;
@@ -253,16 +252,16 @@ p.subtitle{
   align-items: center;
   cursor: default;
   color: var(--dark-grey);
-  opacity: .9;
+  opacity: 0.9;
   margin: auto;
-  margin-top:20px !important;
+  margin-top: 20px !important;
   padding: 1.5rem;
   font-weight: 600;
   background: var(--lightest-grey);
   max-width: max-content;
   border-radius: var(--border-radius-main);
   box-shadow: var(--shadow);
-  transition: .2s ease all;
+  transition: 0.2s ease all;
 }
 
 .like-dislike-container:hover {
@@ -286,15 +285,15 @@ p.subtitle{
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: .8rem;
-  height: .8rem;
+  width: 0.8rem;
+  height: 0.8rem;
   color: transparent;
   font-size: 0;
   cursor: pointer;
   background-color: #ff5f5f80;
   border: none;
   border-radius: var(--border-radius-main);
-  transition: .2s ease all;
+  transition: 0.2s ease all;
 }
 
 .like-dislike-container .btn-close:hover {
@@ -307,9 +306,9 @@ p.subtitle{
 }
 
 .like-dislike-container .btn-close:active {
-  width: .9rem;
-  height: .9rem;
-  font-size: .9rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  font-size: 0.9rem;
   color: #ffffffde;
   --shadow-btn-close: 0 3px 3px 0 #00000026;
   box-shadow: var(--shadow-btn-close);
@@ -331,22 +330,22 @@ p.subtitle{
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: .6;
+  opacity: 0.6;
   margin: 0 0.5rem;
   cursor: pointer;
   user-select: none;
   border: 1px solid var(--middle-grey);
   border-radius: var(--border-radius-icon);
-  transition: .2s ease all;
+  transition: 0.2s ease all;
 }
 
 .like-dislike-container .icons:hover {
-  opacity: .9;
+  opacity: 0.9;
   box-shadow: var(--shadow);
 }
 
 .like-dislike-container .icons:active {
-  opacity: .9;
+  opacity: 0.9;
   box-shadow: var(--shadow-active);
 }
 
@@ -376,7 +375,7 @@ p.subtitle{
   fill: #fff;
   box-sizing: content-box;
   padding: 10px 10px;
-  transition: .2s ease all;
+  transition: 0.2s ease all;
 }
 
 /* Hide the default checkbox */
@@ -420,11 +419,16 @@ p.subtitle{
   transform: rotate(180deg);
 }
 
-.like-dislike-container .icons:hover :is(#icon-dislike-solid, #icon-dislike-regular) {
+.like-dislike-container
+  .icons:hover
+  :is(#icon-dislike-solid, #icon-dislike-regular) {
   animation: rotate-icon-dislike 0.7s ease-in-out both;
 }
 
-.like-dislike-container .icons #dislike-checkbox:checked ~ #icon-dislike-regular {
+.like-dislike-container
+  .icons
+  #dislike-checkbox:checked
+  ~ #icon-dislike-regular {
   display: none;
   animation: checked-icon-dislike 0.5s;
 }
@@ -438,25 +442,51 @@ p.subtitle{
   transform: scale(0.4);
 }
 
-.like-dislike-container .icons #like-checkbox:checked ~ .fireworks > .checked-like-fx {
+.like-dislike-container
+  .icons
+  #like-checkbox:checked
+  ~ .fireworks
+  > .checked-like-fx {
   position: absolute;
   width: 10px;
   height: 10px;
   right: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
-  animation: 1s fireworks-bang ease-out forwards, 1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s fireworks-bang ease-out forwards,
+    1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
   animation-duration: 1.25s, 1.25s, 6.25s;
 }
 
-.like-dislike-container .icons #dislike-checkbox:checked ~ .fireworks > .checked-dislike-fx {
+.like-dislike-container
+  .icons
+  #dislike-checkbox:checked
+  ~ .fireworks
+  > .checked-dislike-fx {
   position: absolute;
   width: 10px;
   height: 10px;
   left: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
-  animation: 1s fireworks-bang ease-out forwards, 1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s fireworks-bang ease-out forwards,
+    1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
   animation-duration: 1.25s, 1.25s, 6.25s;
 }
 
@@ -530,27 +560,32 @@ p.subtitle{
 
 /* Fireworks Animation */
 @keyframes fireworks-position {
-  0%, 19.9% {
+  0%,
+  19.9% {
     margin-top: 10%;
     margin-left: 40%;
   }
 
-  20%, 39.9% {
+  20%,
+  39.9% {
     margin-top: 40%;
     margin-left: 30%;
   }
 
-  40%, 59.9% {
+  40%,
+  59.9% {
     margin-top: 20%;
     margin-left: 70%;
   }
 
-  60%, 79.9% {
+  60%,
+  79.9% {
     margin-top: 30%;
     margin-left: 20%;
   }
 
-  80%, 99.9% {
+  80%,
+  99.9% {
     margin-top: 30%;
     margin-left: 80%;
   }
@@ -565,14 +600,44 @@ p.subtitle{
 
 @keyframes fireworks-bang {
   to {
-    box-shadow: 114px -107.3333333333px #8800ff, 212px -166.3333333333px #a600ff, 197px -6.3333333333px #ff006a, 179px -329.3333333333px #3300ff, -167px -262.3333333333px #ff0062, 233px 65.6666666667px #ff008c, 81px 42.6666666667px #0051ff, -13px 54.6666666667px #00ff2b, -60px -183.3333333333px #0900ff, 127px -259.3333333333px #ff00e6, 117px -122.3333333333px #00b7ff, 95px 20.6666666667px #ff8000, 115px 1.6666666667px #0004ff, -160px -328.3333333333px #00ff40, 69px -242.3333333333px #000dff, -208px -230.3333333333px #ff0400, 30px -15.3333333333px #e6ff00, 235px -15.3333333333px #fb00ff, 80px -232.3333333333px #d5ff00, 175px -173.3333333333px #00ff3c, -187px -176.3333333333px #aaff00, 4px 26.6666666667px #ff6f00, 227px -106.3333333333px #ff0099, 119px 17.6666666667px #00ffd5, -102px 4.6666666667px #ff0088, -16px -4.3333333333px #00fff7, -201px -310.3333333333px #00ffdd, 64px -181.3333333333px #f700ff, -234px -15.3333333333px #00fffb, -184px -263.3333333333px #aa00ff, 96px -303.3333333333px #0037ff, -139px 10.6666666667px #0026ff, 25px -205.3333333333px #00ff2b, -129px -322.3333333333px #40ff00, -235px -187.3333333333px #26ff00, -136px -237.3333333333px #0091ff, -82px -321.3333333333px #6a00ff, 7px -267.3333333333px #ff00c8, -155px 30.6666666667px #0059ff, -85px -73.3333333333px #6a00ff, 60px -199.3333333333px #55ff00, -9px -289.3333333333px #00ffaa, -208px -167.3333333333px #00ff80, -13px -299.3333333333px #ff0004, 179px -164.3333333333px #ff0044, -112px 12.6666666667px #0051ff, -209px -125.3333333333px #ff00bb, 14px -101.3333333333px #00ff95, -184px -292.3333333333px #ff0099, -26px -168.3333333333px #09ff00, 129px -67.3333333333px #0084ff, -17px -23.3333333333px #0059ff, 129px 34.6666666667px #7300ff, 35px -24.3333333333px #ffd900, -12px -297.3333333333px #ff8400, 129px -156.3333333333px #0dff00, 157px -29.3333333333px #1a00ff, -221px 6.6666666667px #ff0062, 0px -311.3333333333px #ff006a, 155px 50.6666666667px #00ffaa, -71px -318.3333333333px #0073ff;
+    box-shadow: 114px -107.3333333333px #8800ff, 212px -166.3333333333px #a600ff,
+      197px -6.3333333333px #ff006a, 179px -329.3333333333px #3300ff,
+      -167px -262.3333333333px #ff0062, 233px 65.6666666667px #ff008c,
+      81px 42.6666666667px #0051ff, -13px 54.6666666667px #00ff2b,
+      -60px -183.3333333333px #0900ff, 127px -259.3333333333px #ff00e6,
+      117px -122.3333333333px #00b7ff, 95px 20.6666666667px #ff8000,
+      115px 1.6666666667px #0004ff, -160px -328.3333333333px #00ff40,
+      69px -242.3333333333px #000dff, -208px -230.3333333333px #ff0400,
+      30px -15.3333333333px #e6ff00, 235px -15.3333333333px #fb00ff,
+      80px -232.3333333333px #d5ff00, 175px -173.3333333333px #00ff3c,
+      -187px -176.3333333333px #aaff00, 4px 26.6666666667px #ff6f00,
+      227px -106.3333333333px #ff0099, 119px 17.6666666667px #00ffd5,
+      -102px 4.6666666667px #ff0088, -16px -4.3333333333px #00fff7,
+      -201px -310.3333333333px #00ffdd, 64px -181.3333333333px #f700ff,
+      -234px -15.3333333333px #00fffb, -184px -263.3333333333px #aa00ff,
+      96px -303.3333333333px #0037ff, -139px 10.6666666667px #0026ff,
+      25px -205.3333333333px #00ff2b, -129px -322.3333333333px #40ff00,
+      -235px -187.3333333333px #26ff00, -136px -237.3333333333px #0091ff,
+      -82px -321.3333333333px #6a00ff, 7px -267.3333333333px #ff00c8,
+      -155px 30.6666666667px #0059ff, -85px -73.3333333333px #6a00ff,
+      60px -199.3333333333px #55ff00, -9px -289.3333333333px #00ffaa,
+      -208px -167.3333333333px #00ff80, -13px -299.3333333333px #ff0004,
+      179px -164.3333333333px #ff0044, -112px 12.6666666667px #0051ff,
+      -209px -125.3333333333px #ff00bb, 14px -101.3333333333px #00ff95,
+      -184px -292.3333333333px #ff0099, -26px -168.3333333333px #09ff00,
+      129px -67.3333333333px #0084ff, -17px -23.3333333333px #0059ff,
+      129px 34.6666666667px #7300ff, 35px -24.3333333333px #ffd900,
+      -12px -297.3333333333px #ff8400, 129px -156.3333333333px #0dff00,
+      157px -29.3333333333px #1a00ff, -221px 6.6666666667px #ff0062,
+      0px -311.3333333333px #ff006a, 155px 50.6666666667px #00ffaa,
+      -71px -318.3333333333px #0073ff;
   }
 }
 .button-container {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-left: 20px ;
+  margin-left: 20px;
 }
 
 /* Common styles for both buttons */
@@ -756,6 +821,9 @@ p.subtitle{
   transform: scale(0.95);
 }
 
-p.contact{
+p.contact {
   margin-bottom: 20px !important;
+}
+body,div.banner,div.container {
+  background-color: rgb(214, 214, 196);
 }
